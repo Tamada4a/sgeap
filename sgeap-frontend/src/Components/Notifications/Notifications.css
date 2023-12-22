@@ -1,0 +1,48 @@
+.notification-container {
+    box-sizing: border-box;
+    position: fixed;
+    margin-top: 84px;
+    z-index: 2;
+}
+
+.notification-toast {
+    padding: 10px 4px;
+    width: 246px;
+    height: auto;
+    min-height: 28px;
+
+    background: var(--base-05);
+    margin-bottom: 5px;
+    text-align: center;
+    align-content: center;
+}
+
+.top-right {
+    top: 12px;
+    right: 12px;
+    transition: transform .6s ease-in-out;
+    animation: toast-in-right .7s;
+}
+
+.warn {
+    border: 1px solid var(--warn);
+}
+
+.ok {
+    border: 1px solid var(--ok);
+}
+
+.neutral {
+    border: 1px solid white;
+}
+
+@keyframes toast-in-right {
+    from {
+        transform: translateX(100%);
+
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}

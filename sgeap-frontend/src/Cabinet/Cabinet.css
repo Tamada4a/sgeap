@@ -1,0 +1,7 @@
+.cabinet-wrapper{
+    margin: 60px auto 0 auto;
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+    background-color: var(--base-03);
+}

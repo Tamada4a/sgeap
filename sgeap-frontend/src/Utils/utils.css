@@ -1,0 +1,116 @@
+.lcg-medium-12 {
+    font-family: var(--text-lcg-medium);
+    font-size: 12px;
+}
+
+.lcg-medium-14 {
+    font-family: var(--text-lcg-medium);
+    font-size: 14px;
+}
+
+.lcg-regular-14 {
+    font-family: var(--text-lcg-regular);
+    font-size: 14px;
+}
+
+.lcg-medium-16 {
+    font-family: var(--text-lcg-medium);
+    font-size: 16px;
+}
+
+.lcg-regular-16 {
+    font-family: var(--text-lcg-regular);
+    font-size: 16px;
+}
+
+.lcg-medium-18 {
+    font-family: var(--text-lcg-medium);
+    font-size: 18px;
+}
+
+.row-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.color-white {
+    color: white;
+}
+
+.column-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.center {
+    align-items: center;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.gap-wrapper-35px {
+    gap: 35px;
+}
+
+.gap-wrapper-30px {
+    gap: 30px;
+}
+
+.gap-wrapper-20px {
+    gap: 20px;
+}
+
+.gap-wrapper-15px {
+    gap: 15px;
+}
+
+.gap-wrapper-10px {
+    gap: 10px;
+}
+
+.gap-wrapper-5px {
+    gap: 5px;
+}
+
+.gap-wrapper-3px {
+    gap: 3px;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pre-rotate {
+    transition: transform 0.5s;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    filter: brightness(0) saturate(100%) invert(77%) sepia(64%) saturate(271%) hue-rotate(357deg) brightness(101%) contrast(96%);
+}
+
+.hide {
+    display: none;
+}
+
+.non-select {
+    user-select: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.flex-start-text {
+    text-align: left;
+}

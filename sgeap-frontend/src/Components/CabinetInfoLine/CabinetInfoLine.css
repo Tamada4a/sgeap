@@ -1,0 +1,6 @@
+.info-line {
+    width: 708px;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--base-01);
+    padding-bottom: 2px;
+}

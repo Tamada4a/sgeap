@@ -1,0 +1,21 @@
+:root {
+    --text-lcg-medium: "GraphikLCGMedium";
+    --text-lcg-regular: "GraphikLCGRegular";
+    --text-lcg-italic: "GraphikLCGLightItalic";
+
+    --main: #101F6E;
+    --transparent-main-40: rgba(16, 31, 110, 0.40);
+    --transparent-main-80: rgba(16, 31, 110, 0.80);
+
+    --base-01: #6576D4;
+    --base-02: #3345A9;
+    --base-03: #485DD0;
+    --base-04: #253691;
+    --base-05: #17277A;
+
+    --warn: #FF1E1E;
+    --ok: #00FF90;
+
+    --scroll-track: #212E78;
+    --scroll-thumb: #081246;
+}

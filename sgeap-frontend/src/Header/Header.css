@@ -1,0 +1,101 @@
+.header {
+    background-color: var(--main);
+    width: auto;
+}
+
+.header-content {
+    padding: 0 32px 0 32px;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+    border-bottom: 1px solid var(--base-01);
+}
+
+.header-logo {
+    display: block;
+    height: 42px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.header-logo img {
+    margin-top: 2px;
+    width: 90%;
+}
+
+.login-btn {
+    padding: 0;
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.login-btn a {
+    text-decoration: none;
+}
+
+.login-btn-name {
+    margin-right: 8px;
+    color: var(--base-02);
+    transition: color 0.3s 0s ease-in-out;
+    font-size: 13px;
+}
+
+.login-btn-name a {
+    color: var(--base-02);
+    transition: color 0.3s 0s ease-in-out;
+}
+
+.login-btn-icon {
+    display: flex;
+}
+
+.login-btn-icon svg {
+    fill: var(--base-02);
+    color: var(--base-02);
+    transition: fill 0.3s 0s ease-in-out;
+}
+
+.login-btn:hover a {
+    color: white;
+}
+
+.login-btn:hover svg {
+    fill: var(--base-01);
+}
+
+.header-space-block {
+    width: auto;
+    height: 100px;
+    background-color: var(--base-02);
+}
+
+.nav-title {
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s 0s ease-in-out;
+}
+
+.authorized-btn {
+    height: 33px;
+    width: 144.67px;
+    padding: 8px 14px;
+    border-radius: 100px;
+
+    border: 1px solid var(--base-01);
+    background-color: var(--base-05);
+    transition: background-color 0.3s ease-in-out;
+    margin-left: -32px;
+}
+
+.authorized-btn:hover {
+    background-color: var(--base-02);
+}
+
+.authorized {
+    position: relative;
+    width: 144.67px;
+}
